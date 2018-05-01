@@ -9,3 +9,13 @@ disabled_rules:
 
 opt_in_rules: # some rules are only opt-in
   - empty_count
+
+custom_rules:
+  id_suffix_naming:
+    name: "Wrong name"
+    regex: "(ID)"
+    match_kinds:
+      - comment
+      - identifier
+    message: "Use 'Id' instead 'ID'"
+    severity: error
