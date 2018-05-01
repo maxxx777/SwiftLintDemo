@@ -20,6 +20,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    // swiftlint:disable empty_count
     func checkIfArrayIsEmpty() -> Bool {
         
         let testArray = [1, 2, 3]
@@ -30,4 +31,5 @@ class ViewController: UIViewController {
         
         return true
     }
+    // swiftlint:enable empty_count
 }
