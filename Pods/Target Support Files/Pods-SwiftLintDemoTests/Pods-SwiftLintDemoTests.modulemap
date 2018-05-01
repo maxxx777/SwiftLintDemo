@@ -1,0 +1,6 @@
+framework module Pods_SwiftLintDemoTests {
+  umbrella header "Pods-SwiftLintDemoTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
