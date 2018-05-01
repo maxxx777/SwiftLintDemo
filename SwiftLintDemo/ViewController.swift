@@ -20,4 +20,14 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    func checkIfArrayIsEmpty() -> Bool {
+        
+        let testArray = [1, 2, 3]
+        
+        if testArray.count > 0 {
+            return false
+        }
+        
+        return true
+    }
 }
