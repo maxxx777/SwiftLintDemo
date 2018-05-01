@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    let itemID = 0
+    let itemId = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
